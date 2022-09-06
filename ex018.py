@@ -1,0 +1,12 @@
+from math import radians,cos, sin, tan
+print('.: DESAFIO 18 :.')
+print('-' * 100)
+print('Faça um programa que leia um ângulo qualquer e mostre  na tela  o valor do seno, cosseno e tangente desse ângulo.')
+print('-' * 100)
+a = float(input('Digite o ângulo: '))
+print('.' * 100)
+s = sin(radians(a))
+c = cos(radians(a))
+t = tan(radians(a))
+print(f'O ângulo é {a}, sendo que seu SENO é {s:.2f}, seu COSSENO é {c:.2f}, e sua TANGENTE é {t:.2f}.')
+print('.' * 100)
